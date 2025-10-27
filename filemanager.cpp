@@ -69,12 +69,16 @@ bool FileManager::loadBooksFromFile(Library& library) {
     string line;
     int count = 0;
     while (getline(file, line)) {
-        if (!line.empty()) {
+        if (line.empty()) continue; // ignore les lignes vides
             Book book;
             book.fromFileFormat(line);
+                    if (book.getISBN().empty()) continue;
+        if (library.findBookByISBN(book.getISBN())) continue;
+
             library.addBook(book);
             count++;
-        }
+        
+            
     }
 
     file.close();
