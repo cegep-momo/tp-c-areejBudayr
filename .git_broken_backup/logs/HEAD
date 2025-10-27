@@ -1,0 +1,18 @@
+0000000000000000000000000000000000000000 87faee7460151521ff9dab3f81039f444e1c59f7 areejBudayr <2397186@cmontmorency.qc.ca> 1761492817 +0000	commit (initial): test
+87faee7460151521ff9dab3f81039f444e1c59f7 0000000000000000000000000000000000000000 areejBudayr <2397186@cmontmorency.qc.ca> 1761492826 +0000	Branch: renamed refs/heads/master to refs/heads/main
+0000000000000000000000000000000000000000 87faee7460151521ff9dab3f81039f444e1c59f7 areejBudayr <2397186@cmontmorency.qc.ca> 1761492826 +0000	Branch: renamed refs/heads/master to refs/heads/main
+87faee7460151521ff9dab3f81039f444e1c59f7 555db9cb7745e76fb4138258f7361323a1e23703 Areej <2397186@cmontmorency.qc.ca> 1761494868 +0000	pull --rebase origin main (start): checkout 555db9cb7745e76fb4138258f7361323a1e23703
+555db9cb7745e76fb4138258f7361323a1e23703 d0e2acafcd7d75283a7324948024d2501a2eedbb Areej <2397186@cmontmorency.qc.ca> 1761495091 +0000	rebase (continue): test
+d0e2acafcd7d75283a7324948024d2501a2eedbb d0e2acafcd7d75283a7324948024d2501a2eedbb Areej <2397186@cmontmorency.qc.ca> 1761495105 +0000	rebase (finish): returning to refs/heads/main
+d0e2acafcd7d75283a7324948024d2501a2eedbb db4e5e8b60e5e35627b92ad73832487c0207260d Areej <2397186@cmontmorency.qc.ca> 1761495767 +0000	commit: [TEST] sync check
+db4e5e8b60e5e35627b92ad73832487c0207260d 278b7c038c54dc6f9b922aee8b73d0f0017796fe Areej <2397186@cmontmorency.qc.ca> 1761495854 +0000	commit: [AJOUT] Méthodes principales dans la classe Book
+278b7c038c54dc6f9b922aee8b73d0f0017796fe 17915d48f248916cd2f51db4ca7b0ba65cbe7614 Areej <2397186@cmontmorency.qc.ca> 1761495899 +0000	commit: [AJOUT] Méthodes principales dans la classe Book
+17915d48f248916cd2f51db4ca7b0ba65cbe7614 0b643b3baf7f8a2a98604759054987d607194b04 Areej <2397186@cmontmorency.qc.ca> 1761495940 +0000	commit: [AJOUT] conversion en texte
+0b643b3baf7f8a2a98604759054987d607194b04 a3764c1968a3e7e2b18b77bf156575f7dad2b02d Areej <2397186@cmontmorency.qc.ca> 1761495980 +0000	commit: [AJOUT] leccture depuis un fichier
+a3764c1968a3e7e2b18b77bf156575f7dad2b02d e2799f549a2ff28a3d8c826080bd7bc14d34c279 Areej <2397186@cmontmorency.qc.ca> 1761496589 +0000	commit: Confirmation avant de suppression
+e2799f549a2ff28a3d8c826080bd7bc14d34c279 1041c84c63d877bd534ca166927f17f260f4a5b2 Areej <2397186@cmontmorency.qc.ca> 1761497000 +0000	commit: Tri par titre, puis auteur
+0000000000000000000000000000000000000000 fff6704e5aa2d2e671e21a55e85247a603b03ed9 Areej <2397186@cmontmorency.qc.ca> 1761586739 +0000	commit (initial): read.me
+fff6704e5aa2d2e671e21a55e85247a603b03ed9 fff6704e5aa2d2e671e21a55e85247a603b03ed9 Areej <2397186@cmontmorency.qc.ca> 1761587904 +0000	branch: Reset to HEAD
+fff6704e5aa2d2e671e21a55e85247a603b03ed9 fff6704e5aa2d2e671e21a55e85247a603b03ed9 Areej <2397186@cmontmorency.qc.ca> 1761587904 +0000	checkout: moving from main to main
+fff6704e5aa2d2e671e21a55e85247a603b03ed9 fff6704e5aa2d2e671e21a55e85247a603b03ed9 Areej <2397186@cmontmorency.qc.ca> 1761588479 +0000	checkout: moving from main to final-livraison
+fff6704e5aa2d2e671e21a55e85247a603b03ed9 1763e2f5f81fabe00df60bdf386425862e40a2ec Areej <2397186@cmontmorency.qc.ca> 1761588508 +0000	commit: projet complet et testé
