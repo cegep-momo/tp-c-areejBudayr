@@ -49,6 +49,8 @@ bool FileManager::saveUsersToFile(Library& library) {
 
     auto users = library.getAllUsers();
     for (User* user : users) {
+        if (user->getName().empty() && user->getUserId().empty()) continue;
+
         file << user->toFileFormat() << "\n";
     }
 
@@ -91,13 +93,14 @@ bool FileManager::loadUsersFromFile(Library& library) {
     string line;
     int count = 0;
     while (getline(file, line)) {
-        if (!line.empty()) {
+        if (line.empty()) continue;
+    if (line == "||" || line == "|") continue;
             User user;
             user.fromFileFormat(line);
             library.addUser(user);
             count++;
         }
-    }
+    
 
     file.close();
     cout << "Chargé " << count << " utilisateur(s) depuis le fichier.\n";
